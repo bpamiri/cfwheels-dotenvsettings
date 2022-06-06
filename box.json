@@ -1,0 +1,22 @@
+{ 
+ "name":"CFWheelsDotEnvSettingsPlugin", 
+ "version":"1.0.0", 
+ "author":"Peter Amiri",
+ "location":"bpamiri/cfwheels-plugin-dotenvsettings#v1.0.0",
+ "directory":"/plugins/",
+ "createPackageDirectory":true,
+ "packageDirectory":"DotEnvSettings",
+ "slug":"cfwheels-dotenvsettings",
+ "type":"cfwheels-plugins",
+ "homepage":"https://github.com/bpamiri/cfwheels-plugin-dotenvsettings",
+ "shortDescription":"DotEnvSettings Plugin for CFWheels",
+ "keywords":"dotenv dotenvsettings plugin cfwheels",
+ "private":false,
+ "scripts":{
+   "postVersion":"package set location='bpamiri/cfwheels-plugin-dotenvsettings#v`package version`'", 
+ "patch-release":"bump --patch",
+ "minor-release":"bump --minor",
+ "major-release":"bump --major",
+ "postPublish":"!git push --follow-tags && publish"
+  }
+}
