@@ -34,6 +34,6 @@ MY_OTHER_SECRET=shh
 
 The default file name supported is .env but you can use any file name you want. You could even have multiple files for various environment.
 
-In your CFWheels app you can you can read in your secrets by adding `readDotEnvSettings()` to your application. The most logical point to do this would be in your `events\onApplicationStart.cfm` file. You can then access the secrets contained in the file processed with `get("MY_SECRET_KEY")`.
+In your CFWheels app you can read in your secrets by adding `readDotEnvSettings()` to your application. The most logical point to do this would be in your `events\onApplicationStart.cfm` file, but you could do it in your environment specific `settings.cfm` files as well. You can then access the secrets contained in the file processed using `get("MY_SECRET_KEY")`.
 
-If you want to customize the secrets file to use, you can specify the file name by specifying the file name like so `readDotEnvSettings(".env-second")`. This could be used to load users specific or environment specific secrets files.
+If you want to customize the secrets file to use, you can specify the file name by passing in the file name like so `readDotEnvSettings(".env-second")`.
