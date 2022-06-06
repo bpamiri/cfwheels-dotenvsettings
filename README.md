@@ -15,7 +15,7 @@ Apache License, Version 2.0.
 # Instructions
 Just drop the zip file into your `plugins` folder and restart your application or use the wheels cli to install
 
-`box install cfwheels-plugin-dotenvsettings`
+`box install cfwheels-dotenvsettings`
 
 ## USAGE
 Create a .env file in your project root and add to .gitignore or your version control's equivalent (don't commit secrets to your repo!) The file can contain JSON or Java properties style key value pairs:
