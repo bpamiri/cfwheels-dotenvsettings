@@ -13,10 +13,5 @@
  "keywords":"dotenv dotenvsettings plugin cfwheels",
  "private":false,
  "scripts":{
-   "postVersion":"package set location='bpamiri/cfwheels-dotenvsettings#v`package version`'", 
- "patch-release":"bump --patch",
- "minor-release":"bump --minor",
- "major-release":"bump --major",
- "postPublish":"!git push --follow-tags && box publish"
   }
 }
