@@ -13,7 +13,7 @@ Apache License, Version 2.0.
 ---
 
 # Instructions
-Just drop the zip file into your `plugins` folder and restart your applicaiton or use the wheels cli to install
+Just drop the zip file into your `plugins` folder and restart your application or use the wheels cli to install
 
 `box install cfwheels-plugin-dotenvsettings`
 
