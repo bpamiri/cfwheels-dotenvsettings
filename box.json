@@ -2,7 +2,7 @@
  "name":"CFWheels DotEnvSettings Plugin", 
  "version":"1.0.0", 
  "author":"Peter Amiri",
- "location":"bpamiri/cfwheels-plugin-dotenvsettings#v1.0.0",
+ "location":"bpamiri/cfwheels-dotenvsettings#v1.0.0",
  "directory":"/plugins/",
  "createPackageDirectory":true,
  "packageDirectory":"DotEnvSettings",
